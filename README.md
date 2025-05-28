@@ -21,44 +21,28 @@ This project investigates the vulnerability of face recognition models to advers
 │ ├── resnet50_scratch_weight.pkl
 │ ├── trainer.py
 │ ├── utils.py
-│ └── results/
-│ ├── attack_results_nn1
-│ ├── attack_results_nn2
-│ ├── clean_acc_nn1
-│ └── clean_acc_nn2
-├──📁attacks/
-│ ├──📁BIM_nn1/
-│ ├──📁CW_L_inf_nn1/
-│ ├──📁Deepfool_nn1/
-│ ├──📁FGSM_nn1/
-│ ├──📁PGD_nn1/
 ├──📁dataset/
-│ ├──📁detector_bim_samples/
-│ ├──📁detector_fgsm_samples/
-│ ├──📁detector_pgd_samples/
 │ ├──📁testset/
-│ │ ├──📁cropped_faces_nn1/
-│ │ └──📁test_set.csv
+│ │ └── test_set.csv
 │ ├──📁trainset/
 │ │ ├──📁adversarial_samples/
 │ │ ├──📁clean_samples/
-│ │ ├──📁cropped_faces_adv/
-│ │ └──📁cropped_faces_clean/
 │ ├──📁vggface2_train/
 │ │ ├──📁train/
-│ │ │ └── identity_meta.csv
-│ │ ├── rcmail_vggface_labels_v2.npy
-│ ├── 1)model_baseline_eval_nn1.ipynb # Baseline evaluation (Inception ResNet V1)
-│ ├── 2)adversarial_attacks_nn1.ipynb # Adversarial attacks (FGSM, BIM, PGD, DeepFool, CW)
-│ ├── 3)attack_transferability_nn2.ipynb # Attack transferability analysis (NN1→NN2)
-│ ├── 4)preprocessing_defense_nn1.ipynb # Defence: adversarial training & preprocessing
-│ └── 5)detector_defense_nn1.ipynb # Defence: adversarial sample detection
-├──📁results/
-│ ├──📁attack_results_nn1
-│ ├──📁attack_results_nn2
-│ ├──📁clean_acc_nn1
-│ ├──📁clean_acc_nn2
+│ ├── identity_meta.csv
+│ ├── rcmail_vggface_labels_v2.npy
+├── 1)model_baseline_eval_nn1.ipynb # Baseline evaluation (Inception ResNet V1)
+├── 2)adversarial_attacks_nn1.ipynb # Adversarial attacks (FGSM, BIM, PGD, DeepFool, CW)
+├── 3)attack_transferability_nn2.ipynb # Attack transferability analysis (NN1→NN2)
+├── 4)preprocessing_defense_nn1.ipynb # Defence: adversarial training & preprocessing
+├── 5)detector_defense_nn1.ipynb # Defence: adversarial sample detection
+├── utils.py
 ├── requirements.txt
+├── detector_model.pth
+├── detector_params.pkl
+├── y_pred_nn1.pt
+├── y_pred_nn2.pt
+├── y_true.pt
 └── README.md
 ```
 ---
