@@ -2,9 +2,7 @@
 
 ## Project Overview
 
-In this project, we perform a comprehensive security evaluation of a Face Recognition System based on Inception ResNet V1, pre-trained on the VGGFace2 dataset. Starting from a custom, gender-balanced test set, we establish baseline performance before subjecting the system to a series of state-of-the-art adversarial attacks, including FGSM, BIM, PGD, DeepFool, and Carlini & Wagner, both targeted and untargeted.  
-We analyse the effects of these attacks on recognition accuracy, investigate the transferability of adversarial examples to a ResNet50 baseline, and assess the effectiveness of defence mechanisms such as adversarial training, input preprocessing, and adversarial sample detection.  
-Results are reported through security evaluation curves, confusion matrices, and detection metrics. The findings confirm the significant vulnerability of deep models to adversarial threats, the partial effectiveness of adversarial training, and the necessity for multi-layered defence strategies in real-world applications.
+This project investigates the vulnerability of face recognition models to adversarial examples by analyzing their classification performance under controlled perturbations and evaluating potential countermeasures. A dedicated test set was created by selecting 100 identities from the VGGFace2 dataset, with each identity represented by ten images, and experiments were performed using the Inception ResNet V1 model pre-trained on this dataset. After establishing baseline performance on clean inputs, various adversarial attacks were applied to assess their impact on accuracy. To evaluate the transferability of these adversarial examples, a second model based on the ResNet50 architecture was tested with inputs crafted to deceive the first model. Finally, several defense mechanisms were implemented and tested to measure their effectiveness in mitigating the performance degradation caused by these attacks.
 
 > **For methodology, results, and discussions, see [AI4C-report-gr04.pdf](./AI4C-report-gr04.pdf)**
 
