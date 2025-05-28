@@ -1,4 +1,4 @@
-# 🛡️ Security Evaluation of a Face Recognition System
+# 🛡️😃 Security Evaluation of a Face Recognition System
 
 ## Project Overview
 
