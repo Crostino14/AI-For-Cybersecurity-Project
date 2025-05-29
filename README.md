@@ -1,6 +1,6 @@
 # 🛡️😃 Security Evaluation of a Face Recognition System
 
-## Project Overview
+## 🏬 Project Overview
 
 This project investigates the vulnerability of face recognition models to adversarial examples by analyzing their classification performance under controlled perturbations and evaluating potential countermeasures. A dedicated test set was created by selecting 100 identities from the VGGFace2 dataset, with each identity represented by ten images, and experiments were performed using the Inception ResNet V1 model pre-trained on this dataset. After establishing baseline performance on clean inputs, various adversarial attacks were applied to assess their impact on accuracy. To evaluate the transferability of these adversarial examples, a second model based on the ResNet50 architecture was tested with inputs crafted to deceive the first model. Finally, several defense mechanisms were implemented and tested to measure their effectiveness in mitigating the performance degradation caused by these attacks.
 
