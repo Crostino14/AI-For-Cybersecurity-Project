@@ -1,4 +1,23 @@
-# 🛡️😃 Security Evaluation of a Face Recognition System
+<div align="center">
+
+<h1>🛡️😃 Security Evaluation of a Face Recognition System</h1>
+<h3>Adversarial Robustness Analysis of Deep Face Recognition Models</h3>
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![facenet-pytorch](https://img.shields.io/badge/FaceNet--PyTorch-FF6B6B?style=for-the-badge&logo=python&logoColor=white)
+![ART](https://img.shields.io/badge/Adversarial%20Robustness%20Toolbox-0062CC?style=for-the-badge&logo=ibm&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+
+*Evaluating adversarial vulnerabilities of face recognition systems via FGSM, BIM, PGD, DeepFool and CW attacks, with transferability analysis and defense mechanisms*
+
+[🏬 Overview](#-overview) • [📁 Structure](#-project-structure) • [🧪 Notebooks](#-main-notebooks--workflow) • [🚀 Setup](#-setup--installation)
+
+</div>
+
+---
 
 ## 🏬 Overview
 
